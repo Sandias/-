@@ -1,0 +1,14 @@
+//请求
+{
+	"usersDetails": {
+		"userHeader":"图片",
+		"userName":"二宝",
+		"userStar":3,
+		"goodsSell":10,
+		"goodsBuy":9,
+		"userAddress":"丈八东路十字路口",
+		"phone":15848515222,
+		"weixin":"hsg123456"
+	}
+}
+

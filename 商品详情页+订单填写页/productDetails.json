@@ -1,0 +1,16 @@
+//请求
+{
+
+	"goodsDetails": {
+		"price":1200,
+		"address":"西安市长安区",
+		"time":"一个月",
+		"goodType":"待售商品",
+		"priceType":"是"
+	},
+	"message":{
+		"touristHeader":"图片",
+		"touristName":"城南旧事",
+		"touristmassage":"有售后吗？"
+	}
+}

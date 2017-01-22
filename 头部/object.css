@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.clearfix:before,.clearfix:after{display:table; content:"";}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
+body,ul,p{padding:0;margin:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.all-page{position:relative;left:50%;margin-left:-960px;}
+.header{width:1920px;height:200px;background-color:#ffffa8;padding:15px 410px;}
+.logo{float:left;padding:20px 50px;}
+.search{padding:50px 10px;float:left;}
+#search-text{border:none;border-radius:10px;width:310px;height:38px;}
+#search-btn{border:none;width:38px;height:38px;background:url(img/%E6%90%9C%E7%B4%A2.png)
+		 no-repeat 100% 100%;margin:0 5px;}
+.user-center{float:left;width:400px;padding:15px 5px 0 60px;}
+#user-pic{width:70px;height:70px;float:left;}
+.user-text{float:left;}
+.user-text p{padding:5px 0 7px 15px;}
+#stars{padding:0 35px;}
+#stars img{display:block;margin:6px;float:left;}
+.buttons{padding:20px 5px;}
+.buttons [type=button]{border:none;width:65px;height:20px;background-color:#ff936f;border-radius:10px;
+			color:#ffffff;text-align:center;line-height:18px;font-size:15px;margin:0 18px;}
+
+.clo1{color:#777672;} .col2{color:#ebc309;} .col3{color:#ff936f;} .col3{color:#ffffff;}
+.ftsz19{font-size:19px;} .ftsz15{font-size:15px;}
+.ftf{font-family:"微软雅黑";}
+.ftwt{font-weight:600;}
+
+
+.content{width:1100px;position:relative;left:50%;margin-left:-960px;}
+.left{width:307px;padding:60px 0 0 8px;float: left;}
+#IDimg{border-radius: 50%;}
+.text1{width:192px;float:right;}
+.text1 p{font-size:20px;color:#777777;padding: 8px;}
+.text1 img{padding-top: 13px;}
+.text1_1{float: left;}
+.text2{font-size: 20px;color:#777777;padding-top: 30px; }
+.text3{font-size: 20px;color:#777777;padding-top: 10px;}
+.text4{font-size: 20px;color:#777777;padding-top: 25px;}
+
+.right{float: left;width: 793px;}
+.right h1{font-size: 25px;color: #ff8c00;padding-top: 50px;}
+.right h1 span{font-size: 16px;color: #979a9c;}
+fieldset{padding-left:77px;border:none;}
+form fieldset p{padding-left: 80px;padding-top: 20px;}
+form fieldset p label{font-size: 20px;color: #ff8c00;}
+#name{width:200px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#phonenumber{width:236px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#number{width:236px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#QQweixin{width:236px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#address{width:223px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#newaddress{width:236px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#zipcode{width:221px;height: 30px;border:none;border-bottom:1px #ff8c00 solid;color:#777777;font-size:20px;}
+#remark{padding-left:157px;color: #ff8c00;font-size:20px;}/*为啥给这里设置padding-top没用*/
+textarea{width:280px;height: 100px;overflow: hidden;resize: none;border:1px #ff8c00 solid;border-radius: 10px;vertical-align:top;}
+.trade{width: 500px;padding-top: 20px;}
+.trade1{color:#000000;padding-left: 150px;display: block;float: left; cursor: pointer;}
+.trade2{color:#000000;padding-left: 150px;display: block;float: right; cursor: pointer;}
+.checkbox{display: block;padding-left: 150px;padding-top: 20px;}
+.checkbox span{color:#ff8c00;}
+.checkbox span a{color: #000000;}
+button{margin-left:280px;margin-top: 20px;width: 104px;height: 40px;background-color:#ff8c00;border:none;color: #ebdccb;font-weight: bold;font-size: 18px;}
+
+footer{ width:1100px; margin:0 auto;color:#ff8c00;}
+footer .footer{ width:600px; margin:0 auto; margin-bottom:10px;}
+footer .footer li{ float:left; width:100px; text-align:center; line-height:20px; font-size:12px; color:#ff8c00;}
+.num{ width:850px; margin:0 auto;}
+.num li{ font-size:12px; float:left; color:#757575; margin-right:50px;}
